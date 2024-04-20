@@ -66,4 +66,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // play-services-code-scanner SDK が使用する Google Play 開発者サービスの依存関係
+    implementation(libs.play.services.code.scanner)
 }
